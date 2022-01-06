@@ -35,9 +35,6 @@ align-items: center;
     margin-left: 100px;
 }
 
-.images img{
-    
-}
 
 .tittle_h1{
     font-family: 'Ubuntu', sans-serif;
@@ -95,6 +92,13 @@ align-items: center;
 .tittle_h2{
     color: 303030;
     font-size: 25px ;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.tittle_h3{
+    color: 303030;
+    font-size: 20px ;
     font-family: 'Roboto', sans-serif;
     font-family: 'Spline Sans', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -161,6 +165,8 @@ text-align: justify;
     color: white;
 }
 
+/* ===========Middle Section 3 =========== */
+
 #middle_sec3{
     
     display: flex;
@@ -168,12 +174,88 @@ text-align: justify;
     justify-content: center;
 }
 
+
+/* ===========Middle Section 4 =========== */
+hr{
+    color: #060606;
+    height: 3px;
+    width: 100%;
+}
+.sec_4_box{
+    
+    display: flex;
+}
+
+.sec_4_l-box{
+    margin-top: 50px;
+    margin-right: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec_4_l-box input{
+    
+    margin: 20px 10px;
+    padding: 5px 5px;
+    
+    
+}
+.sec_4_l-box textarea{
+    margin: 10px 10px;
+}
+
+
+.sec_4_r-box{
+    width: 50%;
+}
+.scale{
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.skills{
+
+   
+}
+
+.scale_common{
+    border-radius: 10px 10px;
+    color: #fff;
+    text-align: right;
+}
+
+.scale_h{ 
+    width: 90%; background-color: #6dbdb3;
+    
+}
+.scale_c{ 
+    width: 70%; background-color: #d8d593;
+    
+}
+.scale_j{ 
+    width: 50%; background-color: #cf789c;
+   
+}
+.scale_r{ 
+    width: 50%; background-color: #6dbdb3;
+   
+}
+.scale_n{ 
+    width: 50%; background-color: #d8d593;
+   
+}
+
+
+/* ===========Footer Section =========== */
+
 #footer_sec{
     padding: 20px 0px;
     background: #000;
     text-align: center;
     color: #fff;
 }
+
 #footer_sec span{
     
     color: #FCB040;
