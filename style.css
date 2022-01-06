@@ -1,10 +1,16 @@
 /* ===========common CSS============ */
 
 body{
-    margin: 0px 100px;
+    margin: 0px;
     font-size: 16px;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
 }
+.container{
+    margin: 50px 100px;
 
+}
 /* ===========Header Section============ */
 
 
@@ -39,6 +45,10 @@ align-items: center;
     font-size: 40px;
     color: #2F3C4F;
 }
+
+.tittle_h1 span{
+    color: #FCB040;
+}
 .top_header{
     display: flex;
     align-items: center;
@@ -49,11 +59,8 @@ align-items: center;
     width: 3px;
     border-radius: 1.5px;
     margin-right: 5px;
+}
 
-}
-.tittle_h1 span{
-    color: #FCB040;
-}
 .description_p{
     font-size: 20px;
     color: #303030;
@@ -88,6 +95,9 @@ align-items: center;
 .tittle_h2{
     color: 303030;
     font-size: 25px ;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .sec_1_inner_a, .sec_1_inner_b, .sec_1_inner_c{
@@ -108,28 +118,55 @@ align-items: center;
 
 /* ===========Middle Section 2 =========== */
 #middle_sec2{
+    
+    margin: 0px 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .shape .photo .text{
-    
+   
         width: 20%;
-        margin: 20px 2.5%;
-        padding: 20px 20px;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     
 }
 
 
 .m_sec2_pic1{
-    height: 10%;
-    width: 10%;
-    display: block; 
+    
+    margin-top: 55px;
+    margin-left: 20px;
+    height: 20%;
+    width: 85%;
+    display: block;
+    
+}
+.m_sec2_pic1 img{
+    top: 0px;
+    right: 0px;
+    
 }
 
 .m_sec2_pic2{
-    height: 35%;
-    width: 35%;
+    height: 390px;
+    width: 375px;
 }
+
+.Text{
+margin-right: 100px;
+margin-left: 50px;
+text-align: justify;
+}
+
+.second_btn{
+    background-color: #DE703B;
+    height: 45PX;
+    width: 230PX;
+    border: none;
+    border-radius: 10PX;
+    font-size: 20PX;
+    color: white;
+}
+
+
