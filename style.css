@@ -168,3 +168,14 @@ text-align: justify;
     justify-content: center;
 }
 
+
+#footer_sec{
+    padding: 20px 0px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+#footer_sec span{
+    
+    color: #FCB040;
+}
