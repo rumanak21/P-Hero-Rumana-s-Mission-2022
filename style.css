@@ -1,10 +1,12 @@
-/* common CSS */
+/* ===========common CSS============ */
+
 body{
     margin: 0px 100px;
     font-size: 16px;
 }
 
-/* Header Section */
+/* ===========Header Section============ */
+
 
 #main_header{
 display: flex;
@@ -66,7 +68,7 @@ align-items: center;
     color: white;
 }
 
-/* Middle Section 1 */
+/* ===========Middle Section 1============ */
 
 #middle_sec1 h1{
     text-align: center;
@@ -102,4 +104,32 @@ align-items: center;
 }
 .sec_1_inner_c{
     background-color: #EDA1C1;
+}
+
+/* ===========Middle Section 2 =========== */
+#middle_sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape .photo .text{
+    
+        width: 20%;
+        margin: 20px 2.5%;
+        padding: 20px 20px;
+        border-radius: 20px;
+    
+}
+
+
+.m_sec2_pic1{
+    height: 10%;
+    width: 10%;
+    display: block; 
+}
+
+.m_sec2_pic2{
+    height: 35%;
+    width: 35%;
 }
