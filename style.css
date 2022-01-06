@@ -33,9 +33,21 @@ align-items: center;
 
 .tittle_h1{
     font-family: 'Ubuntu', sans-serif;
-    line-height: 10px;
+    line-height: 20px;
     font-size: 40px;
     color: #2F3C4F;
+}
+.top_header{
+    display: flex;
+    align-items: center;
+}
+.border_box{
+    background-color: #DE703B;
+    height: 85px;
+    width: 3px;
+    border-radius: 1.5px;
+    margin-right: 5px;
+
 }
 .tittle_h1 span{
     color: #FCB040;
