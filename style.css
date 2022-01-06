@@ -119,19 +119,11 @@ align-items: center;
 /* ===========Middle Section 2 =========== */
 #middle_sec2{
     
-    margin: 0px 20px;
+    margin: 0px 40px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
-
-.shape .photo .text{
-   
-        width: 20%;
-        /* border-radius: 20px; */
-    
-}
-
 
 .m_sec2_pic1{
     
@@ -169,4 +161,10 @@ text-align: justify;
     color: white;
 }
 
+#middle_sec3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
