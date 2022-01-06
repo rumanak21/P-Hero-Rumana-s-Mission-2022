@@ -176,11 +176,11 @@ text-align: justify;
 
 
 /* ===========Middle Section 4 =========== */
-hr{
+/* hr{
     color: #060606;
     height: 3px;
     width: 100%;
-}
+} */
 .sec_4_box{
     
     display: flex;
